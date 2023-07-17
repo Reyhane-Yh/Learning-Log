@@ -137,3 +137,7 @@ LOGIN_URL = 'users:login'
 BOOTSTRAP4 = {
     'include_jquery': True,
 }
+
+# Heroku settings
+import django_heroku
+django_heroku.settings(locals())
